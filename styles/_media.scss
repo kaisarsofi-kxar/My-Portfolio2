@@ -75,7 +75,10 @@
     transform: translateX(-50%);
     width: 100%;
     background-color: var(--color-gray-5);
-    box-shadow: 3px 3px 2px 5px rgba($color: #27ae60, $alpha: 1);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 0.5px solid;
+    border-color: rgb(82, 91, 91);
     .control {
       margin: 1rem 0.3rem;
     }
